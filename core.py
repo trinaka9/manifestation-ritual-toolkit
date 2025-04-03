@@ -27,8 +27,8 @@ print("📿 Core Affirmation:", ritual['affirmation'])
 
 # Add extra affirmations
 print("\n✨ Additional Affirmations")
-affirmation = get_affirmations(category)
-print(f"✨ {affirmation}")
+count = int(input("How many additional affirmations would you like? "))
+additional_affirmations = get_affirmations(count)
 
 # Add moon phase insights
 print("\n🌕 Moon Phase Insight")
